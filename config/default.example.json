@@ -1,0 +1,17 @@
+{
+    "server": {
+        "port": 8080,
+        "prefix": "/api"
+    },
+    "amqp": {
+        "exchange": "feed/dev",
+        "listen": "amqp://localhost",
+        "user": "guest",
+        "password": "guest"
+    },
+    "dirs": {
+        "initial": "/path/to/data/initial/",
+        "input": "/path/to/data/input/",
+        "output": "/path/to/data/output/"
+    }
+}

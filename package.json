@@ -1,0 +1,20 @@
+{
+  "name": "feed",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Eugene Kriulin <eakriulin@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "api",
+    "etl"
+  ],
+  "scripts": {
+    "start:api": "yarn workspace @feed/api start",
+    "dev:api": "yarn workspace @feed/api dev",
+    "build:api": "yarn workspace @feed/api build",
+    "test:api": "yarn workspace @feed/api test", 
+    "start:etl": "yarn workspace @feed/etl start",
+    "dev:etl": "yarn workspace @feed/etl dev",
+    "build:etl": "yarn workspace @feed/etl build" 
+  }
+}

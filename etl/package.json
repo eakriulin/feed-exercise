@@ -1,0 +1,18 @@
+{
+  "name": "@feed/etl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eugene Kriulin <eakriulin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_CONFIG_DIR=../config node ./build/consumers/files/run.js",
+    "dev": "NODE_CONFIG_DIR=../config npx ts-node -P ./tsconfig.json ./src/consumers/files/run.ts",
+    "build": "rm -rf ./build && npx tsc"
+  },
+  "dependencies": {
+    "amqplib": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.17"
+  }
+}

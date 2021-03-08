@@ -1,0 +1,7 @@
+# --- Watcher: findNewFiles ---
+# every minute
+*/1 * * * * cd ~/feed-exercises && NODE_CONFIG_DIR=./config node ./etl/build/cronjobs/watcher/run.js
+
+# --- Restorer: restoreStuckFiles ---
+# every hour
+0 * * * * cd ~/feed-exercises && NODE_CONFIG_DIR=./config node ./etl/build/cronjobs/restorer/run.js

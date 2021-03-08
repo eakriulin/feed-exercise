@@ -1,0 +1,15 @@
+node_modules/
+build/
+
+default.json
+config.json
+ecosystem.config.js
+.env
+local.env
+.DS_Store
+yarn-error.log
+
+data/input/*.json
+data/output/*.json
+
+.eslintcache

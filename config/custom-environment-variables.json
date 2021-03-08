@@ -1,0 +1,17 @@
+{
+    "server": {
+        "port": "SERVER_API_PORT",
+        "prefix": "SERVER_API_PREFIX"
+    },
+    "amqp": {
+        "exchange": "AMQP_EXCHANGE",
+        "listen": "AMQP_LISTEN",
+        "user": "AMQP_USER",
+        "password": "AMQP_PASSWORD"
+    },
+    "dirs": {
+        "initial": "DIRS_INITIAL_FILES_PATH",
+        "input": "DIRS_INPUT_FILES_PATH",
+        "output": "DIRS_OUTPUT_FILES_PATH"
+    }
+}
